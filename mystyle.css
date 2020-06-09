@@ -1,22 +1,21 @@
-* {
-    box-sizing: border-box;
-  }
-
-  body {
-    overflow-x: hidden;
-  }
-
   .main {
-    float:left;
+    float: left;
     width:60%;
+    margin:auto;
+    display: inline;
   
   }
   .right {
     float: right;
     width:40%;
     text-align: right;
+    margin:auto;
+    display: block;
   }
   
+  #check {
+    padding: 0;
+  }
 
 
   @media only screen and (max-width:992px) {
@@ -34,10 +33,13 @@
 
 #image2
 {
-    height: 70%;
-    position: -webkit-sticky;
-    
+  position: relative;
+  height: auto;
+  margin-right: 0.50rem !important;
+  padding-top: 2%;
 }
+
+
 
 #NormalCharacterStyle1
 {   
@@ -72,10 +74,19 @@
   
 }
 
+.foot-line {
+  padding-top: 5%;
+}
+
 .map1{
   position: relative;
   padding-top: 3%;
 }
+
+#style1{
+color: white;
+}
+
 
 
 #NormalCharacterStyle2
@@ -168,7 +179,7 @@
     position:relative;
     font-family: "brandon grotesque", sans-serif;
     font-weight: lighter;
-    font-size : 35px;
+    font-size : 30px;
     color : #004053;
     color : rgb(0, 64, 83);
     text-align:center;
@@ -185,13 +196,31 @@
     font-style: normal;
     font-weight: 700;
     padding-top: 3%;
-    padding-left: 5%;
+    padding-left: 35%;
+    text-align: left;
+}
+
+#NormalCharacterStyle11
+{   
+  position:relative;
+  font-family: "brandon grotesque", sans-serif;
+  font-weight: lighter;
+  font-size : 30px;
+  color : #004053;
+  color : rgb(0, 64, 83);
+  text-align:center;
+  padding-top:10%;
+  padding-left: 10%;
 }
 
 .grid-container {
   display: grid; /* or inline-grid */
   grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
   grid-gap: 3em;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 
@@ -307,11 +336,10 @@
  .type1 {
   position:relative;
   font-size : 22px;
-  color : #65C5B4;
-  color : rgb(101, 197, 180);
+  color : #939598;
   font-family: "brandon grotesque", sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
  }
 
  .type2{
@@ -321,7 +349,7 @@
   color : rgb(0, 64, 83);
   font-family: "brandon grotesque", sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
  }
 
  table {
@@ -329,9 +357,15 @@
 }
 
 
-table td, table th {
+table td {
   border: 3px solid #FCD60B;
-  line-height: 70px;
+  line-height: 60px;
+  text-align: center;
+}
+
+table th {
+  border: 3px solid #FCD60B;
+  line-height: 40px;
   text-align: center;
 }
 
@@ -421,4 +455,17 @@ h5 {
 
   #btn {
     text-align: center;
+    border: 0;
+  }
+
+  .page-footer
+  {
+    padding-top: 5%;
+    padding-left: 5%;
+    position:relative;
+    font-family: "brandon grotesque", sans-serif;
+    font-weight: lighter;
+    font-size : 20px;
+    color : #004053;
+    color : rgb(0, 64, 83);
   }
