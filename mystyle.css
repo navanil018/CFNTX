@@ -1,16 +1,12 @@
   .main {
     float: left;
     width:60%;
-    margin:auto;
-    display: inline;
   
   }
   .right {
     float: right;
     width:40%;
     text-align: right;
-    margin:auto;
-    display: block;
   }
   
   #check {
@@ -47,7 +43,7 @@
     font-family: "brandon grotesque", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size : 60px;
+    font-size : 45px;
     color : #004053;
     color : rgb(0, 64, 83);
     padding-left: 12%;
@@ -108,10 +104,10 @@ color: white;
 	  font-family: "brandon grotesque", sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size : 24px;
+    font-size : 22px;
     color : #004053;
     color : rgb(0, 64, 83);
-    padding-left: 14%;
+    padding-left:12%;
 }
 
 #NormalCharacterStyle4
@@ -153,7 +149,7 @@ color: white;
     position:relative;
     font-family: "brandon grotesque", sans-serif;
     font-weight: lighter;
-    font-size : 35px;
+    font-size : 25px;
     color : #004053;
     color : rgb(0, 64, 83);
     text-align:left;
@@ -196,7 +192,7 @@ color: white;
     font-style: normal;
     font-weight: 700;
     padding-top: 3%;
-    padding-left: 35%;
+    padding-left: 20%;
     text-align: left;
 }
 
@@ -205,12 +201,12 @@ color: white;
   position:relative;
   font-family: "brandon grotesque", sans-serif;
   font-weight: lighter;
-  font-size : 30px;
+  font-size : 25px;
   color : #004053;
   color : rgb(0, 64, 83);
   text-align:center;
   padding-top:10%;
-  padding-left: 10%;
+  padding-left: 5%;
 }
 
 .grid-container {
@@ -219,7 +215,7 @@ color: white;
   grid-gap: 3em;
 }
 
-body {
+html, body {
   overflow-x: hidden;
 }
 
@@ -237,7 +233,9 @@ body {
 	color : rgb(101, 197, 180);
   font-family: "brandon grotesque", sans-serif;
   font-weight: 700;
+  
 }
+
 
 
 .card-p {
@@ -288,7 +286,7 @@ body {
 
 
   ::-webkit-input-placeholder {
-    font-size: 24px;
+    font-size: 20px;
     color : #65C5B4;
     color : rgb(101, 197, 180);
     font-family: "brandon grotesque", sans-serif;
@@ -320,22 +318,23 @@ body {
 
  #table-container {
    padding-top: 4%;
-   text-align: center;
+   padding-left: 5%;
+   padding-right: 7%;
  }
 
  th {
-  position:relative;
-  font-size : 25px;
+  font-size : 18px;
   color : #65C5B4;
   color : rgb(101, 197, 180);
   font-family: "brandon grotesque", sans-serif;
   font-style: normal;
   font-weight: 600;
+  margin: auto;
  }
 
  .type1 {
   position:relative;
-  font-size : 22px;
+  font-size : 20px;
   color : #939598;
   font-family: "brandon grotesque", sans-serif;
   font-style: normal;
@@ -344,7 +343,7 @@ body {
 
  .type2{
   position:relative;
-  font-size : 22px;
+  font-size : 18px;
   color : #004053;
   color : rgb(0, 64, 83);
   font-family: "brandon grotesque", sans-serif;
@@ -354,19 +353,23 @@ body {
 
  table {
   border-collapse: collapse;  
+  table-layout: fixed;
 }
 
 
 table td {
-  border: 3px solid #FCD60B;
-  line-height: 60px;
+  border: 2px solid #FCD60B;
+  line-height: 45px;
   text-align: center;
+  white-space: nowrap;
+  
 }
 
 table th {
-  border: 3px solid #FCD60B;
-  line-height: 40px;
+  border: 2px solid #FCD60B;
+  line-height: 30px;
   text-align: center;
+  
 }
 
 table tr:first-child th {
@@ -454,7 +457,6 @@ h5 {
   }
 
   #btn {
-    text-align: center;
     border: 0;
   }
 
