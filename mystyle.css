@@ -108,7 +108,7 @@ color: white;
     font-size : 22px;
     color : #004053;
     color : rgb(0, 64, 83);
-    padding-left:12%;
+    padding-left:14%;
     padding-top: 3%;
 }
 
@@ -141,7 +141,7 @@ color: white;
     position:relative;
     font-family: "brandon grotesque", sans-serif;
     font-weight: lighter;
-    font-size : 30px;
+    font-size : 25px;
     color : #004053;
     color : rgb(0, 64, 83);
 }
@@ -155,7 +155,7 @@ color: white;
     color : #004053;
     color : rgb(0, 64, 83);
     text-align:left;
-    padding-top:5%;
+    padding-top:3%;
     padding-left: 9%;
     padding-bottom: 2%;
 }
@@ -283,7 +283,7 @@ html, body {
 
 .card-title {
   text-align: center;
-  font-size : 80px;
+  font-size : 100px;
   color : #65C5B4;
 	color : rgb(101, 197, 180);
   font-family: "brandon grotesque", sans-serif;
@@ -329,7 +329,6 @@ html, body {
 
   .dot-container {
     padding-left: 10%;
-    padding-top: 2%;
   }
 
 

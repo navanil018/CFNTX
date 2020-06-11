@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+</head>
+<body>
+
+<!-- Head Image -->
+
+<div class="container-fluid">
+  <div>        
+    <img src="assets/image4.png" class="img-fluid" alt="Responsive image" id="image1">
+  </div>
+</div>
+
+<!-- Writing and Child image -->
+
+<div class="container-fluid" id="check"> 
+    <div style="overflow:hidden">
+        <div class="main">
+                <div class="row">
+                    <div class="col-md-12">
+                    <h2 id="NormalCharacterStyle1" class="text-md-left">HIGH OPPORTUNITY AREA HOME FINDER TOOL</h2>
+                    </div>
+                    <div class="col-md-10">
+                    <img src="assets/down.png" class="down img-responsive" id="down">
+                    </div>
+                    <div class="col-md-8">
+                    <h2 id="NormalCharacterStyle2" class="text-md-left">WELCOME!</h2>
+                    </div>
+                    <div class="col-md-10">
+                    <p id="NormalCharacterStyle3" class="text-md-left">We appreciate your participation in the Children First North Texas program. This tool is provided to help you identify high opportunity areas that are eligible for the program.</p>
+                    </div> 
+            </div>
+        </div>
+        <div class="right">
+            <img src="assets/child3.png" class="img-fluid w-100" id="image2">
+        </div>
+    </div>
+</div>
+
+<!-- Information Card -->
+
+<div class="container">
+  <h1 id="NormalCharacterStyle4" >There are four pieces of information this tool will provide:</h1>
+    <div id="case-studies">
+      <div class="card-deck">
+        <div class="card shadow p-4 mb-4">
+          <div class="card-title">1</div>
+          <div class="text-center">
+            <img src="assets/line.png" class="line img-responsive center-block">
+          </div>
+          <p class="card-p">Map of areas across North Texas that are eligible for this program</p>
+        </div>
+      
+        <div class="card shadow p-4 mb-4">
+          <div class="card-title">2</div>
+          <div class="text-center">
+            <img src="assets/line.png" class="line img-responsive center-block">
+          </div>
+          <p class="card-p">Confirmation of whether or not a particular property is eligible for this program</p>
+        </div>
+
+        <div class="card shadow p-4 mb-4">
+          <div class="card-title">3</div>
+          <div class="text-center">
+            <img src="assets/line.png" class="line img-responsive center-block">
+          </div>
+          <p class="card-p">Map of areas across North Texas that are eligible for this program</p>
+        </div>
+      
+        <div class="card shadow p-4 mb-4">
+          <div class="card-title">4</div>
+          <div class="text-center">
+            <img src="assets/line.png" class="line img-responsive center-block">
+          </div>
+          <p class="card-p">A property map so you can see where the property is located</p>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<div class="text-center">
+  <img src="assets/down.png" class="down2 img-responsive center-block">
+</div>
+
+<div class="container-fluid">
+  <h1 id="NormalCharacterStyle5" class="text-center">PROGRAM ELIGIBLE AREAS ACROSS NORTH TEXAS</h1>
+</div>
+
+<!-- static map image-->
+
+<div class="profile-img" style="overflow: hidden">
+  <img class="map1 img-responsive w-100" src="assets/map2.png" />    
+</div>
+
+<div class="dot-container">
+  <div class="row">
+      <div class="col-md-6">
+          <h3 id="NormalCharacterStyle6"><span class="dot" id="dot"></span>   = Eligible Area</h3>
+      </div>
+  </div>
+</div>
+
+<!-- Eligible section -->
+<div class="container-fluid">
+  <h1 id="NormalCharacterStyle7">Enter a property address here:</h1>
+      <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+              <form>
+                  <div class="form-group yellow-border">
+                    <textarea class="form-control" rows="2" id="comment" placeholder="Please enter, street address, city, state and zip code here"></textarea>
+                  </div>
+                </form>
+          </div>
+          <div class="col-lg-1"></div>
+      </div>
+</div>
+
+<div class="container-fluid">
+    <h1 id="NormalCharacterStyle5" class="text-center">YOUR RESULTS FOR THIS ADDRESS</h1>
+</div>
+
+
+<div class="container" id="eligible">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 id="NormalCharacterStyle8">Eligible for program support?</h1>
+        </div>
+        <div class="col-lg-12" id="card-style" >
+            <div class="card mx-auto" style="width: 14rem;" id="eligible-card">
+                <div class="card-body">YES</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+            <h1 id="NormalCharacterStyle9" class="text-center">2020 housing assistance payment standards (the amount DHA will pay) for this zip code</h1>
+        </div>
+        <div class="col-lg-2"></div>
+    </div>    
+</div>
+
+<!-- Information Table -->
+
+<div class="container" id="table-container">
+  <div class="table">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col" style="width: 115px"># OF BEDROOMS</th>
+            <th scope="col"style="width: 115px">NON-CFNTX VOUCHER</th>
+            <th scope="col" style="width: 115px">CFNTX VOUCHER</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="type1">Studio</td>
+            <td class="type1">$1,260</td>
+            <td class="type2">$1,500</td>
+          </tr>
+          <tr>
+            <td class="type1">1 Bedroom</td>
+            <td class="type1">$1,449</td>
+            <td class="type2">$1,800</td>
+          </tr>
+          <tr>
+            <td class="type1">2 Bedroom</td>
+            <td class="type1">$1,730</td>
+            <td class="type2">$2,200</td>
+          </tr>
+          <tr>
+            <td class="type1">3 Bedroom</td>
+            <td class="type1">$2,270</td>
+            <td class="type2">$3,200</td>
+          </tr>
+          <tr>
+            <td class="type1">4 Bedroom</td>
+            <td class="type1">$2,980</td>
+            <td class="type2">$3,500</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+            <h1 id="NormalCharacterStyle9" class="text-center">Mobility Assistance Available</h1>
+        </div>
+        <div class="col-lg-2"></div>
+    </div>    
+</div>
+
+<!-- Collapse section -->
+<div class="container" id="collapse-container">
+    <div id="accordion">
+        <div class="row">
+            <div class="col-md-12">
+              <div class="card shadow space m-3" class="d-block">
+                <div class="card-header" role="tab" id="headingOne">
+                  <h5 class="mb-0">
+                    MOVING EXPENSES
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
+                         <i class="fa fa-chevron-up pull-right color"></i>
+                    </a>
+                </h5>
+                </div>
+                <div div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="card-block">
+                    DHA offers a reimbursement of up to $200 to help with moving expenses as part of this program for all
+                    bedroom sizes. The $200 is paid after the unit passes inspection and you are moved in to your new home.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+                <div class="card shadow m-3">
+                  <div class="card-header" id="heading-example2" role="tab" id="headingTwo" >
+                    <h5 class="mb-0">
+                        APPLICATION FEES
+                      <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <i class="fa fa-chevron-up pull-right color"></i>
+                      </a>
+                  </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="card-block">
+                      DHA offers a reimbursement of up to $200 to help with moving expenses as part of this program for all
+                      bedroom sizes. The $200 is paid after the unit passes inspection and you are moved in to your new home.
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="card shadow m-3">
+                  <div class="card-header" id="heading-example3" role="tab" id="headingThree">
+                    <h5 class="mb-0">
+                      SECURITY AND UTILITY DEPOSITS
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <i class="fa fa-chevron-up pull-right color"></i>
+                      </a>
+                  </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="card-block">
+                      DHA offers a reimbursement of up to $200 to help with moving expenses as part of this program for all
+                      bedroom sizes. The $200 is paid after the unit passes inspection and you are moved in to your new home.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="card shadow m-3">
+                  <div class="card-header" id="heading-example4" role="tab" id="headingFour">
+                    <h5 class="mb-0">
+                      LANDLORD BONUS INCENTIVE
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          <i class="fa fa-chevron-up pull-right color"></i>
+                      </a>
+                  </h5>
+                  </div>
+                  <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+                    <div class="card-block">
+                      DHA offers a reimbursement of up to $200 to help with moving expenses as part of this program for all
+                      bedroom sizes. The $200 is paid after the unit passes inspection and you are moved in to your new home.
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="text-center">
+    <img src="assets/down.png" class="down2 img-responsive center-block">
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+            <h1 id="NormalCharacterStyle9" class="text-center">See what is near this property:</h1>
+        </div>
+        <div class="col-lg-2"></div>
+    </div>    
+</div>
+
+
+<!--Google map-->
+<div class="container p-5">
+    <div id="map-container-google-1" class="z-depth-1-half map-container shadow">
+        <iframe src="https://maps.google.com/maps?q=Dallas&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+          style="border:0" allowfullscreen></iframe>
+      </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1 id="NormalCharacterStyle10">PRINT THIS INFORMATION OR SCREENSHOT ON MOBILE DEVICE</h1>
+    </div>
+    <div class="col text-center">
+      <button class="btn btn-outline-info" id="btn">
+        <i aria-hidden="true"><img src="assets/print.png"></i>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 id="NormalCharacterStyle11" class="text-center">If you have any questions, or would like additional information, please 
+              reach out to your Housing Navigator. Thank you!</h1>
+        </div>
+    </div>    
+</div>
+
+<div class="text-center">
+  <img src="assets/foot-line.png" class="foot-line img-responsive center-block">
+</div>
+
+<!-- Footer -->
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <p>
+          DHA is a Fair Housing and Equal Opportunity Agency. TTY: Individuals with disabilities
+          may contact the 504/ADA Coordinator at 214-951-8348, 7-1-1 for Relay Texas assistance,
+          or 504ADA@dhantx.com
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- <div class="text-center">
+    <h1>...</h1>
+</div> -->
+
+
+
+</body>
+</html>
